@@ -3,7 +3,7 @@
 
 
 #### Usage (requires c3c with patch to lift memory limit, patch does not yet exist)
-alternativly replace `"short" num num` with `"char" 0 255` in project.json for a small taste
+alternativly replace `"short" num num` with `"char" 0 255` in project.json and `Short` with `Char` in `main.c3` for a small taste
 except you can't, it causes a compiler assert!
 ```shell
 $ c3c build -O5 --trust=full --max-mem 2000000000
