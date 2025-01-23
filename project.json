@@ -30,7 +30,7 @@
     "number_fuckery": {
       // Executable or library.
       "type": "executable",
-      "exec": ["c3c compile -O5 enum_generator.c3", "./insanity short -32768 32767 > ../src/generated_enum.c3"]
+      "exec": ["c3c compile -O5 enum_generator.c3", "./insanity int -2147483648 2147483647 > ../src/generated_enum.c3"]
       // Additional libraries, sources
       // and overrides of global settings here.
     },
